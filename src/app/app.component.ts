@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Bases';
+  public title: string = 'Bases';
+  public numero: number = 10;
+  public base: number = 5;
+
+  acumulador(valor: number) {
+    this.numero += valor;
+  }
 }
