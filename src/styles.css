@@ -38,3 +38,17 @@ button:focus{
 .p-1 {
   padding: 1px;
 }
+
+.row{
+  display: flex;
+}
+
+.coll{
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+input{
+  display: block;
+  margin: 10px;
+}
